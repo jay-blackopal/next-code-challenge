@@ -1,0 +1,1 @@
+export { mockResult } from './mockResult';

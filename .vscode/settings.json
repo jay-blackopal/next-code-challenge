@@ -1,0 +1,24 @@
+{
+    "[json]": {
+      "editor.quickSuggestions": {
+        "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
+      "gitlens.codeLens.scopes": ["document"]
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.autoClosingBrackets": "always",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "files.eol": "\n",
+    "eslint.lintTask.enable": true,
+    "eslint.lintTask.options": "./**/*.ts{,x}",
+    "editor.formatOnSave": true
+  }
+  
